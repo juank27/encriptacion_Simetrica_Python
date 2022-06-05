@@ -64,6 +64,7 @@ for encode in data:
    with open('test.txt', "ab") as f: f.write(encrypted)
 
 #########      Private device only    ##########
+### https://solveforums.msomimaktaba.com/threads/solved-valueerror-ciphertext-length-must-be-equal-to-key-size-when-trying-to-decrypt-text.351136/#post-351161
 read_data = []
 private_key = read_private()
 with open('test.txt', "rb") as f:
